@@ -24,6 +24,9 @@ colcon build --packages-select mypack --symlink-install
 ```
 Before ROS commands you need to source.
 ```
+source ~/ros2_wkp/install/setup.bash
+```
+```
 ros2 launch mypack minmax_launch.py
 ```
 # Számítás ellenőrzése
