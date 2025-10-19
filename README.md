@@ -20,14 +20,14 @@ git clone https://github.com/Matteuszhrv/hor_a7g_mate
 cd ~/ros2_wkp
 ```
 ```
-colcon build --packages-select mypack --symlink-install
+colcon build --packages-select hor_a7g_mate --symlink-install
 ```
 Before ROS commands you need to source.
 ```
 source ~/ros2_wkp/install/setup.bash
 ```
 ```
-ros2 launch mypack minmax_launch.py
+ros2 launch hor_a7g_mate minmax_launch.py
 ```
 # Számítás ellenőrzése
 ```
