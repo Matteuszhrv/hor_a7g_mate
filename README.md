@@ -20,7 +20,7 @@ git clone https://github.com/Matteuszhrv/hor_a7g_mate
 cd ~/ros2_wkp
 ```
 ```
-colcon build --packages-select hor_a7g_mate --symlink-install
+colcon build --packages-select mypack --symlink-install
 ```
 Before ROS commands you need to source.
 ```
