@@ -1,0 +1,51 @@
+[0.153s] Invoking command in '/home/mate/ros2_wkp/build/mypack': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mate/ros2_wkp/src/mypack -DCMAKE_INSTALL_PREFIX=/home/mate/ros2_wkp/install/mypack
+[4.171s] -- The C compiler identification is GNU 11.4.0
+[5.768s] -- The CXX compiler identification is GNU 11.4.0
+[6.474s] -- Detecting C compiler ABI info
+[7.177s] -- Detecting C compiler ABI info - done
+[7.205s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.205s] -- Detecting C compile features
+[7.220s] -- Detecting C compile features - done
+[7.265s] -- Detecting CXX compiler ABI info
+[7.905s] -- Detecting CXX compiler ABI info - done
+[7.934s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.935s] -- Detecting CXX compile features
+[7.935s] -- Detecting CXX compile features - done
+[7.996s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[9.005s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[9.578s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.977s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.978s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/mate/ros2_wkp/src/mypack/include>
+[9.978s] -- Configured cppcheck exclude dirs and/or files: 
+[9.998s] -- Added test 'lint_cmake' to check CMake code style
+[10.005s] -- Added test 'uncrustify' to check C / C++ code style
+[10.005s] -- Configured uncrustify additional arguments: 
+[10.011s] -- Added test 'xmllint' to check XML markup files
+[10.027s] -- Configuring done
+[10.059s] -- Generating done
+[10.075s] -- Build files have been written to: /home/mate/ros2_wkp/build/mypack
+[10.088s] Invoked command in '/home/mate/ros2_wkp/build/mypack' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mate/ros2_wkp/src/mypack -DCMAKE_INSTALL_PREFIX=/home/mate/ros2_wkp/install/mypack
+[10.089s] Invoking command in '/home/mate/ros2_wkp/build/mypack': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mate/ros2_wkp/build/mypack -- -j2 -l2
+[10.191s] [ 50%] [32mBuilding CXX object CMakeFiles/mynode.dir/src/mynode.cpp.o[0m
+[10.381s] [100%] [32m[1mLinking CXX executable mynode[0m
+[10.722s] [100%] Built target mynode
+[10.743s] Invoked command in '/home/mate/ros2_wkp/build/mypack' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mate/ros2_wkp/build/mypack -- -j2 -l2
+[10.765s] Invoking command in '/home/mate/ros2_wkp/build/mypack': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mate/ros2_wkp/build/mypack
+[10.785s] -- Install configuration: ""
+[10.788s] -- Installing: /home/mate/ros2_wkp/install/mypack/lib/mypack/mynode
+[10.791s] -- Installing: /home/mate/ros2_wkp/install/mypack/share/ament_index/resource_index/package_run_dependencies/mypack
+[10.795s] -- Installing: /home/mate/ros2_wkp/install/mypack/share/ament_index/resource_index/parent_prefix_path/mypack
+[10.797s] -- Installing: /home/mate/ros2_wkp/install/mypack/share/mypack/environment/ament_prefix_path.sh
+[10.800s] -- Installing: /home/mate/ros2_wkp/install/mypack/share/mypack/environment/ament_prefix_path.dsv
+[10.801s] -- Installing: /home/mate/ros2_wkp/install/mypack/share/mypack/environment/path.sh
+[10.801s] -- Installing: /home/mate/ros2_wkp/install/mypack/share/mypack/environment/path.dsv
+[10.805s] -- Installing: /home/mate/ros2_wkp/install/mypack/share/mypack/local_setup.bash
+[10.813s] -- Installing: /home/mate/ros2_wkp/install/mypack/share/mypack/local_setup.sh
+[10.813s] -- Installing: /home/mate/ros2_wkp/install/mypack/share/mypack/local_setup.zsh
+[10.813s] -- Installing: /home/mate/ros2_wkp/install/mypack/share/mypack/local_setup.dsv
+[10.814s] -- Installing: /home/mate/ros2_wkp/install/mypack/share/mypack/package.dsv
+[10.814s] -- Installing: /home/mate/ros2_wkp/install/mypack/share/ament_index/resource_index/packages/mypack
+[10.820s] -- Installing: /home/mate/ros2_wkp/install/mypack/share/mypack/cmake/mypackConfig.cmake
+[10.820s] -- Installing: /home/mate/ros2_wkp/install/mypack/share/mypack/cmake/mypackConfig-version.cmake
+[10.820s] -- Installing: /home/mate/ros2_wkp/install/mypack/share/mypack/package.xml
+[10.825s] Invoked command in '/home/mate/ros2_wkp/build/mypack' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mate/ros2_wkp/build/mypack

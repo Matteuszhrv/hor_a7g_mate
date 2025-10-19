@@ -1,0 +1,6 @@
+Invoking command in '/home/mate/ros2_wkp/build/mypack': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mate/ros2_wkp/src/mypack -DCMAKE_INSTALL_PREFIX=/home/mate/ros2_wkp/install/mypack
+Invoked command in '/home/mate/ros2_wkp/build/mypack' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mate/ros2_wkp/src/mypack -DCMAKE_INSTALL_PREFIX=/home/mate/ros2_wkp/install/mypack
+Invoking command in '/home/mate/ros2_wkp/build/mypack': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mate/ros2_wkp/build/mypack -- -j2 -l2
+Invoked command in '/home/mate/ros2_wkp/build/mypack' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mate/ros2_wkp/build/mypack -- -j2 -l2
+Invoking command in '/home/mate/ros2_wkp/build/mypack': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mate/ros2_wkp/build/mypack
+Invoked command in '/home/mate/ros2_wkp/build/mypack' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mate/ros2_wkp/build/mypack

@@ -1,0 +1,45 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/mate/ros2_wkp/src/mypack/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mate/ros2_wkp/build/mypack
+[ 50%] [32mBuilding CXX object CMakeFiles/mynode.dir/src/mynode.cpp.o[0m
+[100%] [32m[1mLinking CXX executable mynode[0m
+[100%] Built target mynode
+-- Install configuration: ""
+-- Installing: /home/mate/ros2_wkp/install/mypack/lib/mypack/mynode
+-- Installing: /home/mate/ros2_wkp/install/mypack/share/ament_index/resource_index/package_run_dependencies/mypack
+-- Installing: /home/mate/ros2_wkp/install/mypack/share/ament_index/resource_index/parent_prefix_path/mypack
+-- Installing: /home/mate/ros2_wkp/install/mypack/share/mypack/environment/ament_prefix_path.sh
+-- Installing: /home/mate/ros2_wkp/install/mypack/share/mypack/environment/ament_prefix_path.dsv
+-- Installing: /home/mate/ros2_wkp/install/mypack/share/mypack/environment/path.sh
+-- Installing: /home/mate/ros2_wkp/install/mypack/share/mypack/environment/path.dsv
+-- Installing: /home/mate/ros2_wkp/install/mypack/share/mypack/local_setup.bash
+-- Installing: /home/mate/ros2_wkp/install/mypack/share/mypack/local_setup.sh
+-- Installing: /home/mate/ros2_wkp/install/mypack/share/mypack/local_setup.zsh
+-- Installing: /home/mate/ros2_wkp/install/mypack/share/mypack/local_setup.dsv
+-- Installing: /home/mate/ros2_wkp/install/mypack/share/mypack/package.dsv
+-- Installing: /home/mate/ros2_wkp/install/mypack/share/ament_index/resource_index/packages/mypack
+-- Installing: /home/mate/ros2_wkp/install/mypack/share/mypack/cmake/mypackConfig.cmake
+-- Installing: /home/mate/ros2_wkp/install/mypack/share/mypack/cmake/mypackConfig-version.cmake
+-- Installing: /home/mate/ros2_wkp/install/mypack/share/mypack/package.xml

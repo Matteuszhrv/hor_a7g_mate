@@ -1,0 +1,3 @@
+[0.000000] (-) TimerEvent: {}
+[0.009015] (-) JobUnselected: {'identifier': 'minmax_finder'}
+[0.009279] (-) EventReactorShutdown: {}

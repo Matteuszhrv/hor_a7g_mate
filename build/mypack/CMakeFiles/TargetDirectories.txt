@@ -1,0 +1,10 @@
+/home/mate/ros2_wkp/build/mypack/CMakeFiles/uninstall.dir
+/home/mate/ros2_wkp/build/mypack/CMakeFiles/mypack_uninstall.dir
+/home/mate/ros2_wkp/build/mypack/CMakeFiles/mynode.dir
+/home/mate/ros2_wkp/build/mypack/CMakeFiles/test.dir
+/home/mate/ros2_wkp/build/mypack/CMakeFiles/edit_cache.dir
+/home/mate/ros2_wkp/build/mypack/CMakeFiles/rebuild_cache.dir
+/home/mate/ros2_wkp/build/mypack/CMakeFiles/list_install_components.dir
+/home/mate/ros2_wkp/build/mypack/CMakeFiles/install.dir
+/home/mate/ros2_wkp/build/mypack/CMakeFiles/install/local.dir
+/home/mate/ros2_wkp/build/mypack/CMakeFiles/install/strip.dir

@@ -1,0 +1,4 @@
+source;share/mypack/local_setup.bash
+source;share/mypack/local_setup.dsv
+source;share/mypack/local_setup.sh
+source;share/mypack/local_setup.zsh
