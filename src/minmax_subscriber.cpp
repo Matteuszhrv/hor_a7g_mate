@@ -1,36 +1,38 @@
 #include "rclcpp/rclcpp.hpp"
-#include "std_msgs/msg/int32.hpp"
-#include <limits>
+#include "std_msgs/msg/int32_multi_array.hpp"
+#include <algorithm>
+#include <vector>
 
 class MinMaxSubscriber : public rclcpp::Node
 {
 public:
-    MinMaxSubscriber() : Node("minmax_subscriber"),
-                         min_value_(std::numeric_limits<int>::max()),
-                         max_value_(std::numeric_limits<int>::min())
+    MinMaxSubscriber() : Node("minmax_subscriber")
     {
-        subscription_ = this->create_subscription<std_msgs::msg::Int32>(
-            "random_number", 10,
+        subscription_ = this->create_subscription<std_msgs::msg::Int32MultiArray>(
+            "random_numbers", 10,
             std::bind(&MinMaxSubscriber::callback, this, std::placeholders::_1));
         RCLCPP_INFO(this->get_logger(), "MinMax Subscriber node started");
     }
 
 private:
-    void callback(const std_msgs::msg::Int32::SharedPtr msg)
+    void callback(const std_msgs::msg::Int32MultiArray::SharedPtr msg)
     {
-        int value = msg->data;
-        if (value < min_value_)
-            min_value_ = value;
-        if (value > max_value_)
-            max_value_ = value;
+        if (msg->data.empty())
+        {
+            RCLCPP_WARN(this->get_logger(), "Empty array received!");
+            return;
+        }
 
-        RCLCPP_INFO(this->get_logger(), "Received: %d | Min: %d | Max: %d",
-                    value, min_value_, max_value_);
+        int min_val = *std::min_element(msg->data.begin(), msg->data.end());
+        int max_val = *std::max_element(msg->data.begin(), msg->data.end());
+
+        RCLCPP_INFO(this->get_logger(),
+                    "Received array: [%d, %d, %d, %d, %d] | Min: %d | Max: %d",
+                    msg->data[0], msg->data[1], msg->data[2], msg->data[3], msg->data[4],
+                    min_val, max_val);
     }
 
-    rclcpp::Subscription<std_msgs::msg::Int32>::SharedPtr subscription_;
-    int min_value_;
-    int max_value_;
+    rclcpp::Subscription<std_msgs::msg::Int32MultiArray>::SharedPtr subscription_;
 };
 
 int main(int argc, char *argv[])
