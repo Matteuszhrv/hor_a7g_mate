@@ -1,2 +1,0 @@
-Invoking command in '/home/mate/ros2_wkp/build/minmax_finder': /usr/bin/cmake /home/mate/ros2_wkp/src/mypack -DCMAKE_INSTALL_PREFIX=/home/mate/ros2_wkp/install/minmax_finder
-Invoked command in '/home/mate/ros2_wkp/build/minmax_finder' returned '1': /usr/bin/cmake /home/mate/ros2_wkp/src/mypack -DCMAKE_INSTALL_PREFIX=/home/mate/ros2_wkp/install/minmax_finder
