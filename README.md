@@ -12,7 +12,7 @@ It is assumed that the workspace is ~/ros2_sw/.
 cd ~/ros2_sw/src
 ```
 ```
-https://github.com/Matteuszhrv/hor_a7g_mate
+git clone https://github.com/Matteuszhrv/hor_a7g_mate
 ```
 # Build ROS 2 packages
 ```
