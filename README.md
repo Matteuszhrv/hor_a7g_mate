@@ -30,8 +30,8 @@ ros2 launch mypack minmax_launch.py
 ```
 # Le ellenőrizhetjük külön is
 ```
-ros2 run mypack number_publisher.cpp
+ros2 run mypack number_publisher
 ```
 ```
-ros2 run mypack minmax_subscriber.cpp
+ros2 run mypack minmax_subscriber
 ```
