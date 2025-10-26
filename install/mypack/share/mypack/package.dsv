@@ -1,8 +1,0 @@
-source;share/mypack/hook/cmake_prefix_path.ps1
-source;share/mypack/hook/cmake_prefix_path.dsv
-source;share/mypack/hook/cmake_prefix_path.sh
-source;share/mypack/local_setup.bash
-source;share/mypack/local_setup.dsv
-source;share/mypack/local_setup.ps1
-source;share/mypack/local_setup.sh
-source;share/mypack/local_setup.zsh
